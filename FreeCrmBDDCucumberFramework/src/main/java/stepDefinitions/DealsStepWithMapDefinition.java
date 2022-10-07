@@ -1,4 +1,4 @@
-package stepDefinitions;
+/*package stepDefinitions;
 
 import java.util.List;
 import java.util.Map;
@@ -79,8 +79,8 @@ public class DealsStepWithMapDefinition {
 	
 	@Then("^user enters deal details$")
 	public void user_enters_contacts_details(DataTable dealData) throws InterruptedException {
-		/*Naveen AutomationLabs code: 
-		for(Map<String, String> data : dealData.asMaps(String.class, String.class)) {*/
+		Naveen AutomationLabs code: 
+		for(Map<String, String> data : dealData.asMaps(String.class, String.class)) {
 		//This below for also not worked when asMaps() method have String.class
 		//for(Map<Object, Object> data : dealData.asMaps(String.class, String.class)) { 
 		for(Map<String, String> data : dealData.asMaps()) {
@@ -115,4 +115,4 @@ public class DealsStepWithMapDefinition {
 	public void close_the_browser() {
 	    driver.quit();
 	}
-}
+}*/
