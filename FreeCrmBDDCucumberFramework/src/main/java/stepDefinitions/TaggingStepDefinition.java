@@ -1,4 +1,4 @@
-package stepDefinitions;
+/*package stepDefinitions;
 
 import io.cucumber.java.en.Given;
 
@@ -94,4 +94,4 @@ public class TaggingStepDefinition {
 	public void this_is_a_close_browser_test() {
 		
 	}
-}
+}*/
