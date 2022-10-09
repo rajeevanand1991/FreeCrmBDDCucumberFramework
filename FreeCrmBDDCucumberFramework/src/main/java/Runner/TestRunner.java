@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		//I removed this complete path in features to make work, earlier faced java.lang.IllegalArgumentException: path must exist: E:\eclipseWorkspace\FreeCrmBDDCucumberFramework\src\main\java\Features\hooks.feature
 		//E:\\eclipseWorkspace\\FreeCrmBDDCucumberFramework\\
 		features = "src\\main\\java\\Features\\taggedhooks.feature",
-		glue = {"stepDefinitions"},
+		glue = {"stepDefinitions"}, //the path of the stepdefinition files
 		//format = {"pretty","html:test-output", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"},
 		monochrome = true, //Display the console output in a proper readable format
 		strict = true, // it will check and fail the execution, if there are any pending steps or not defined steps in stepDefinition file, it should be treated as errors.
